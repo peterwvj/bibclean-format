@@ -13,8 +13,9 @@ Please make sure to install [[https://ctan.org/pkg/bibclean?lang=en][bibclean]].
 
 ** Installation
 
-For manual installation of ~bibclean-format~, download the files from
-this repository and add them to your ~load-path~:
+I'm currently working on getting this package [[https://github.com/melpa/melpa/pull/6042][accepted into MELPA]]. For
+now, installation must be done manually by downloading the ~.el~ files
+from this repository and adding them to your ~load-path~:
 
 #+BEGIN_SRC elisp
 (add-to-list 'load-path "/folder/where/bibclean-format/is/")
