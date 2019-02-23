@@ -1,0 +1,43 @@
+#+STARTUP: showall
+
+#+TITLE: bibclean-format
+
+Commands for prettyprinting and syntax checking BibTeX and Scribe
+bibliography data base files using [[https://ctan.org/pkg/bibclean?lang=en][bibclean]].
+
+* Installation and configuration
+
+** Prerequisites
+
+Please make sure to install [[https://ctan.org/pkg/bibclean?lang=en][bibclean]].
+
+** Installation
+
+For manual installation of ~bibclean-format~, download the files from
+this repository and add them to your ~load-path~:
+
+#+BEGIN_SRC elisp
+(add-to-list 'load-path "/folder/where/bibclean-format/is/")
+#+END_SRC
+
+** Configuration
+
+Add the following to your Emacs configuration:
+
+#+BEGIN_SRC elisp
+(require 'bibclean-format)
+#+END_SRC
+
+** Optional configuration
+
+To enable ~bibclean-format-on-save-mode~ in BibTeX buffers:
+
+#+BEGIN_SRC elisp
+(add-hook 'bibtex-mode-hook 'bibclean-format-on-save-mode)
+#+END_SRC
+
+To bind ~bibclean-format~ to a key:
+
+#+BEGIN_SRC elisp
+(define-key bibtex-mode-map (kbd "C-c f") 'bibclean-format)
+#+END_SRC
