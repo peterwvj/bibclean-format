@@ -5,7 +5,7 @@
 ;; Maintainer: Peter W. V. Tran-Jørgensen <peter.w.v.jorgensen@gmail.com>
 ;; URL: https://github.com/peterwvj/bibclean-format
 ;; Created: 21st February 2019
-;; Version: 0.0.1
+;; Version: 0.0.2
 ;; Keywords: languages
 ;; Package-Requires: ((emacs "24.3") (reformatter "0.3"))
 
