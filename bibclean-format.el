@@ -1,4 +1,4 @@
-;;; bibclean-format.el --- Prettyprint and syntax BibTeX and Scribe using bibclean -*- lexical-binding: t; -*-
+;;; bibclean-format.el --- Reformat BibTeX and Scribe using bibclean -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2019 Peter W. V. Tran-Jørgensen
 ;; Author: Peter W. V. Tran-Jørgensen <peter.w.v.jorgensen@gmail.com>
@@ -34,7 +34,7 @@
 (defgroup bibclean-format nil
   "Prettyprinting and syntax checking for BibTeX and Scribe
 bibliography data base files."
-  :group 'bibclean-format)
+  :group 'bibtex)
 
 (defcustom bibclean-format-command "bibclean"
   "Command used to normalize bibliography files.
