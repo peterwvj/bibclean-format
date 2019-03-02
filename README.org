@@ -16,7 +16,7 @@ Please make sure to install [[https://ctan.org/pkg/bibclean?lang=en][bibclean]].
 *** Installation using MELPA (recommended)
 
 ~bibclean-format~ is available via [[https://melpa.org][MELPA]] and can be installed by
-executing the following commands:
+executing the following command:
 
 #+BEGIN_SRC elisp
 package-install RET bibclean-format RET
@@ -24,7 +24,7 @@ package-install RET bibclean-format RET
 
 *** Manual installation
 
-For manual installation, download ~~bibclean-format.el~ from this
+For manual installation, download ~bibclean-format.el~ from this
 repository and add them to your ~load-path~:
 
 #+BEGIN_SRC elisp
