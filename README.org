@@ -3,8 +3,8 @@
 #+TITLE: bibclean-format
 
 [[https://melpa.org/#/vdm-mode][file:https://melpa.org/packages/bibclean-format-badge.svg]]
-[[http://melpa-stable.milkbox.net/#/vdm-mode][file:http://melpa-stable.milkbox.net/packages/bibclean-format-badge.svg]]
-[[http://www.gnu.org/licenses/gpl-3.0.html][http://img.shields.io/:license-gpl3-blue.svg?style=flat-square]]
+[[http://melpa-stable.milkbox.net/#/vdm-mode][file:https://stable.melpa.org/packages/bibclean-format-badge.svg]]
+[[http://www.gnu.org/licenses/gpl-3.0.html][https://img.shields.io/:license-gpl3-blue.svg?style=flat-square]]
 
 Commands for prettyprinting and syntax checking BibTeX and Scribe
 bibliography data base files using [[https://ctan.org/pkg/bibclean?lang=en][bibclean]].
